@@ -9,9 +9,7 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./heroes.component.scss']
 })
 export class HeroesComponent implements OnInit {
-
   heroes: Hero[] = [];
-
   selectedHero?: Hero;
 
   getHeroes(): void {
